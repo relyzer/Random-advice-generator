@@ -9,6 +9,7 @@ section {
 }
 
 .advice-section {
+  padding: 1em;
   height: 100vh;
   width: 100vw;
 }
@@ -28,6 +29,7 @@ section {
 }
 
 .card {
+  max-width: fit-content;
   padding: 1em;
   border-radius: 16px;
   background-color: hsl(217, 19%, 24%);
@@ -39,6 +41,7 @@ section {
 }
 
 .divider {
+  width: 100%;
   padding: 1em 0 2em 0;
 }
 

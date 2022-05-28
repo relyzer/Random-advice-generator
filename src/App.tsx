@@ -11,7 +11,6 @@ const App = (): React.ReactElement => {
     fetch("https://api.adviceslip.com/advice")
       .then((response) => {
         if (response.ok) {
-          // console.log(response.json());
           return response.json();
         }
         throw response;
